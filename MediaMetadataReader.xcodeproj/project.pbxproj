@@ -1,0 +1,234 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5BE1A3D15DFA25A00DB60E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BE1A3C15DFA25A00DB60E0 /* Foundation.framework */; };
+		A5BE1A4015DFA25A00DB60E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BE1A3F15DFA25A00DB60E0 /* main.m */; };
+		A5BE1A4415DFA25A00DB60E0 /* MediaMetadataReader.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A5BE1A4315DFA25A00DB60E0 /* MediaMetadataReader.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A5BE1A3615DFA25A00DB60E0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				A5BE1A4415DFA25A00DB60E0 /* MediaMetadataReader.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A5BE1A3815DFA25A00DB60E0 /* MediaMetadataReader */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MediaMetadataReader; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5BE1A3C15DFA25A00DB60E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A5BE1A3F15DFA25A00DB60E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5BE1A4215DFA25A00DB60E0 /* MediaMetadataReader-Prefix.pch */ = {isa = PBXFileReference; path = "MediaMetadataReader-Prefix.pch"; sourceTree = "<group>"; };
+		A5BE1A4315DFA25A00DB60E0 /* MediaMetadataReader.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = MediaMetadataReader.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5BE1A3515DFA25A00DB60E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BE1A3D15DFA25A00DB60E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5BE1A2D15DFA25900DB60E0 = {
+			isa = PBXGroup;
+			children = (
+				A5BE1A3E15DFA25A00DB60E0 /* MediaMetadataReader */,
+				A5BE1A3B15DFA25A00DB60E0 /* Frameworks */,
+				A5BE1A3915DFA25A00DB60E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5BE1A3915DFA25A00DB60E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5BE1A3815DFA25A00DB60E0 /* MediaMetadataReader */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5BE1A3B15DFA25A00DB60E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5BE1A3C15DFA25A00DB60E0 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5BE1A3E15DFA25A00DB60E0 /* MediaMetadataReader */ = {
+			isa = PBXGroup;
+			children = (
+				A5BE1A3F15DFA25A00DB60E0 /* main.m */,
+				A5BE1A4315DFA25A00DB60E0 /* MediaMetadataReader.1 */,
+				A5BE1A4115DFA25A00DB60E0 /* Supporting Files */,
+			);
+			path = MediaMetadataReader;
+			sourceTree = "<group>";
+		};
+		A5BE1A4115DFA25A00DB60E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5BE1A4215DFA25A00DB60E0 /* MediaMetadataReader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5BE1A3715DFA25A00DB60E0 /* MediaMetadataReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5BE1A4715DFA25A00DB60E0 /* Build configuration list for PBXNativeTarget "MediaMetadataReader" */;
+			buildPhases = (
+				A5BE1A3415DFA25A00DB60E0 /* Sources */,
+				A5BE1A3515DFA25A00DB60E0 /* Frameworks */,
+				A5BE1A3615DFA25A00DB60E0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MediaMetadataReader;
+			productName = MediaMetadataReader;
+			productReference = A5BE1A3815DFA25A00DB60E0 /* MediaMetadataReader */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5BE1A2F15DFA25900DB60E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = A5BE1A3215DFA25900DB60E0 /* Build configuration list for PBXProject "MediaMetadataReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A5BE1A2D15DFA25900DB60E0;
+			productRefGroup = A5BE1A3915DFA25A00DB60E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5BE1A3715DFA25A00DB60E0 /* MediaMetadataReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5BE1A3415DFA25A00DB60E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BE1A4015DFA25A00DB60E0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A5BE1A4515DFA25A00DB60E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A5BE1A4615DFA25A00DB60E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A5BE1A4815DFA25A00DB60E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MediaMetadataReader/MediaMetadataReader-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A5BE1A4915DFA25A00DB60E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MediaMetadataReader/MediaMetadataReader-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5BE1A3215DFA25900DB60E0 /* Build configuration list for PBXProject "MediaMetadataReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5BE1A4515DFA25A00DB60E0 /* Debug */,
+				A5BE1A4615DFA25A00DB60E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5BE1A4715DFA25A00DB60E0 /* Build configuration list for PBXNativeTarget "MediaMetadataReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5BE1A4815DFA25A00DB60E0 /* Debug */,
+				A5BE1A4915DFA25A00DB60E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5BE1A2F15DFA25900DB60E0 /* Project object */;
+}
