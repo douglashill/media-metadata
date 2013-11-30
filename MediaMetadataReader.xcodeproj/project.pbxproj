@@ -10,6 +10,7 @@
 		A5BE1A3D15DFA25A00DB60E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BE1A3C15DFA25A00DB60E0 /* Foundation.framework */; };
 		A5BE1A4015DFA25A00DB60E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BE1A3F15DFA25A00DB60E0 /* main.m */; };
 		A5BE1A4415DFA25A00DB60E0 /* MediaMetadataReader.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A5BE1A4315DFA25A00DB60E0 /* MediaMetadataReader.1 */; };
+		A5BE1A4F15DFA3DB00DB60E0 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BE1A4E15DFA3DB00DB60E0 /* CoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,8 +30,9 @@
 		A5BE1A3815DFA25A00DB60E0 /* MediaMetadataReader */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MediaMetadataReader; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5BE1A3C15DFA25A00DB60E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A5BE1A3F15DFA25A00DB60E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A5BE1A4215DFA25A00DB60E0 /* MediaMetadataReader-Prefix.pch */ = {isa = PBXFileReference; path = "MediaMetadataReader-Prefix.pch"; sourceTree = "<group>"; };
+		A5BE1A4215DFA25A00DB60E0 /* MediaMetadataReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MediaMetadataReader-Prefix.pch"; sourceTree = "<group>"; };
 		A5BE1A4315DFA25A00DB60E0 /* MediaMetadataReader.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = MediaMetadataReader.1; sourceTree = "<group>"; };
+		A5BE1A4E15DFA3DB00DB60E0 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5BE1A4F15DFA3DB00DB60E0 /* CoreServices.framework in Frameworks */,
 				A5BE1A3D15DFA25A00DB60E0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,6 +68,7 @@
 		A5BE1A3B15DFA25A00DB60E0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A5BE1A4E15DFA3DB00DB60E0 /* CoreServices.framework */,
 				A5BE1A3C15DFA25A00DB60E0 /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -227,6 +231,7 @@
 				A5BE1A4915DFA25A00DB60E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
